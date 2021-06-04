@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+header .left_menu {
+    display: flex;
+}
+
+header .left_menu  .logo {
+    font-size: 2rem;
+}
+
+header .left_menu .nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 75px;
+}
+
+header .left_menu .nav_links a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+header .right_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .right_menu .social_logins a{
+    text-decoration: none;
+    color: steelblue;
+    padding: 0 30px 0 0;
+}
+
+header .right_menu .email a {
+    text-decoration: none;
+    color: steelblue;
+    padding: 0 40px;
+}
