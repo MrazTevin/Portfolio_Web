@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -41,4 +45,10 @@ header .right_menu .email a {
     text-decoration: none;
     color: steelblue;
     padding: 0 40px;
+}
+
+.hero{
+    height: 400px;
+    /* background: grey; */
+    margin: 0 auto;
 }
