@@ -52,3 +52,13 @@ header .right_menu .email a {
     /* background: grey; */
     margin: 0 auto;
 }
+
+.partner_section {
+    height: 200px;
+    background: grey;
+}
+
+footer {
+    height: 400px;
+    background: grey;
+}
