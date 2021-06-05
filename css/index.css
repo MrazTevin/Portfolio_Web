@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 
-
 /* header and it's components styling */
 header {
     display: flex;
@@ -56,53 +55,56 @@ header .right_menu .email a {
     margin: 0 auto;
 }
 
-.partner_section {
-    height: 200px;
-    background: grey;
-}
-
-footer {
-    height: 400px;
-    background: grey;
-}
-
-.img_style {
-    width: auto;
-}
-
+/* styles section after menu */
 .profile_tag {
     display: flex;
     padding: 20px 100px;
     clear:both;
 }
 
+/* styles text within the profile tag class */
 #text_container {
     padding: 30px;
     padding-left: 80px;
 }
 
+/* styles the software developer button */
 button {
     background-color:lavender;
     padding: 5px;
     border-radius: 5px;
     border: none;
 }
-/* .profile_tag {
-    content: "";
-    display: table;
-    clear: both;
-    padding: 30px 100px;
+
+/* style the image within the profile image class */
+.img_style {
+    width: auto;
 }
 
-#text_container {
-    float:left;
-    width: 25%;
-    padding: 30px;
-    padding-right: 100px;
+.partner_section {
+    height: 200px;
+    /* background: grey; */
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-.profile_image {
-    float:right;
-    width: 50%;
-    display: flex-end;
-} */
+/* style the code pamoja image logo */
+.resize_logo {
+    width: auto;
+    height: 50px;
+}
+
+/* create spacing below client worked for heading */
+.company_logos {
+    padding: 10px;
+}
+
+section .lead_text {
+    padding: 20px 200px;
+}
+
+footer {
+    height: 400px;
+    background: grey;
+}
