@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+
+/* header and it's components styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -47,8 +49,9 @@ header .right_menu .email a {
     padding: 0 40px;
 }
 
+/* hero section styling */
 .hero{
-    height: 400px;
+    height: 450px;
     /* background: grey; */
     margin: 0 auto;
 }
@@ -62,3 +65,37 @@ footer {
     height: 400px;
     background: grey;
 }
+
+.img_style {
+    width: auto;
+}
+
+.profile_tag {
+    display: flex;
+    padding: 20px 100px;
+    clear:both;
+}
+
+#text_container {
+    padding: 30px;
+    padding-left: 80px;
+}
+/* .profile_tag {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 30px 100px;
+}
+
+#text_container {
+    float:left;
+    width: 25%;
+    padding: 30px;
+    padding-right: 100px;
+}
+
+.profile_image {
+    float:right;
+    width: 50%;
+    display: flex-end;
+} */
