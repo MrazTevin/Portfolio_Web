@@ -51,7 +51,7 @@ header .right_menu .email a {
 /* hero section styling */
 .hero{
     height: 450px;
-    /* background: grey; */
+    /* background: black; */
     margin: 0 auto;
 }
 
@@ -66,6 +66,12 @@ header .right_menu .email a {
 #text_container {
     padding: 30px;
     padding-left: 80px;
+}
+
+.link a {
+color: lavender;
+font-weight:bold;
+text-decoration: none;
 }
 
 /* styles the software developer button */
