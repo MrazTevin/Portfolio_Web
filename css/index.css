@@ -17,6 +17,7 @@ header .left_menu  .logo {
     font-size: 2rem;
 }
 
+/* styles the navigation menu */
 header .left_menu .nav_links {
     display: flex;
     justify-content: center;
@@ -107,7 +108,59 @@ button {
 }
 
 section .lead_text {
-    padding: 20px 200px;
+    padding: 20px 180px;
+}
+.project_display {
+    padding:0 100px;
+}
+
+.cards {
+    column-count: 2;
+}
+.project_card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    height: 100%;
+    background-color: orange;
+    /* width: 350px; */
+}
+
+.project_card2 {
+    background-color: grey;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    height: 100%;
+}
+
+.project_card3 {
+    background-color: orchid;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    height: 100%;
+}
+.card_content {
+    /* background-color: orange; */
+    padding: 10px 30px;
+}
+
+.card_frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_frame .card_label {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    padding-right: 0;
+}
+
+.card_label p {
+    padding: 0 5px;
 }
 
 footer {
