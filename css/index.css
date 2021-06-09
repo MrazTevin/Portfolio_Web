@@ -110,58 +110,79 @@ button {
 section .lead_text {
     padding: 20px 180px;
 }
-.project_display {
-    padding:0 100px;
+
+/* styling to display project begins here */
+section .project_display {
+    padding: 0 100px;
+
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.cards {
-    column-count: 2;
+.display_column1 {
+    float: left;
+    width: 50%;
 }
-.project_card1 {
+
+.display_column2 {
+    float: right;
+    width: 50%;
+
+}
+
+
+/* .project_display {
+    padding:0 100px;
+} */
+
+/* .project_card1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40%;
     height: 100%;
     background-color: orange;
     /* width: 350px; */
-}
+/* } */ */
 
-.project_card2 {
+/* .project_card2 {
     background-color: grey;
     margin-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40%;
     height: 100%;
-}
+} */
 
-.project_card3 {
+/* .project_card3 {
     background-color: orchid;
     margin-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40%;
     height: 100%;
-}
-.card_content {
+} */
+/* .card_content { */
     /* background-color: orange; */
-    padding: 10px 30px;
-}
+    /* padding: 10px 30px; */
+/* } */
 
-.card_frame {
+/* .card_frame {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.card_frame .card_label {
+/* .card_frame .card_label {
     display: flex;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
     padding: 0 100px;
     padding-right: 0;
-}
-
+} */
+/* 
 .card_label p {
     padding: 0 5px;
-}
+} */
 
 footer {
     height: 400px;
