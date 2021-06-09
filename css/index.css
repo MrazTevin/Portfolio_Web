@@ -70,14 +70,14 @@ header .right_menu .email a {
 }
 
 .link a {
-color: lavender;
+color: #e0b0ff;
 font-weight:bold;
 text-decoration: none;
 }
 
 /* styles the software developer button */
 button {
-    background-color:lavender;
+    background-color: #e0b0ff;
     padding: 5px;
     border-radius: 5px;
     border: none;
