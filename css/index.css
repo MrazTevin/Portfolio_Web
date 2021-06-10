@@ -1,5 +1,6 @@
 body {
     margin: 0;
+   
 }
 
 /* header and it's components styling */
@@ -133,7 +134,34 @@ section .project_display {
 
 }
 
+.nav_people ul {
+    list-style-type:none;
+    padding: 0 15px;
+}
 
+.nav_people {
+    display:flex;
+}
+
+
+
+/* .divider {
+    height: 5px;
+    width: 50%;
+    border-radius: 5px;
+    background: grey;
+    overflow:hidden;
+
+}
+
+.progress_bar {
+    display:block;
+    border-radius: 5px;
+    height:100%;
+    background: green;
+    background-size: 300% 100%;
+    
+} */
 /* .project_display {
     padding:0 100px;
 } */
