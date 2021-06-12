@@ -1,6 +1,12 @@
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-   
+    margin:0;
+    /* background-color: black; */
+    /* color:white; */
 }
 
 /* header and it's components styling */
@@ -30,6 +36,7 @@ header .left_menu .nav_links a {
     text-decoration: none;
     color: black;
     padding: 0 20px;
+    transition:all ease 0.3s;
 }
 
 header .right_menu {
@@ -143,6 +150,86 @@ section .project_display {
     display:flex;
 }
 
+.footer {
+    background-color: black;
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1170px;
+    /* background-color: brown; */
+    margin: auto;
+}
+
+/* styles the footer row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_column {
+    width: 50%;
+    /* padding: 0 100px; */
+    display: "";
+    grid-template-columns: 1fr;  
+}
+
+.footer_column h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+    justify-content: flex-start;
+}
+
+.position_contact_form {
+    text-align: left;
+    padding:0 45px;
+}
+
+.position_site_map {
+    text-align: justify;
+    padding: 0 100px;
+}
+
+.footer_column ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer_column ul li a {
+    font-size: 16px;
+    text-transform:capitalize;
+    color: white;
+    text-decoration: none;
+    transition:ease-in-out;
+}
+
+.footer_column ul li a:hover{
+    padding-left: 8px;
+}
+
+/* .align_site {
+    margin-right: 10px;
+} */
+
+ul {
+    list-style:none;
+}
+
+.social_links a {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top:50px;
+    color:white;
+    transition: all 0.3 ease;
+    height: 40px;
+    width: 40px;
+}
+
+/* Make portfolio footer responsive */
 
 
 /* .divider {
@@ -172,7 +259,7 @@ section .project_display {
     height: 100%;
     background-color: orange;
     /* width: 350px; */
-/* } */ */
+/* } */ 
 
 /* .project_card2 {
     background-color: grey;
@@ -210,9 +297,4 @@ section .project_display {
 /* 
 .card_label p {
     padding: 0 5px;
-} */
-
-footer {
-    height: 400px;
-    background: grey;
 }
