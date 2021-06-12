@@ -1,0 +1,8 @@
+/* style the iframe background */
+ /* a .show-layer-d {
+    background-color: black;
+} */
+
+body.dark .show-layer-d {
+    background-color: #333333 !important;
+}
