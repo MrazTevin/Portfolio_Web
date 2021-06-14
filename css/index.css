@@ -140,7 +140,22 @@ section .project_display {
     width: 50%;
 
 }
+/* styles the testimonial section */
+section .testimonial_container {
+    padding: 10px 180px;
+}
 
+section .quote_placeholder{
+    height: 360px;
+    width: 900px;
+    background-color: grey;
+}
+
+.quote_placeholder blockquote {
+    padding: 130px;
+    line-height: 3.5;
+
+}
 .nav_people ul {
     list-style-type:none;
     padding: 0 15px;
