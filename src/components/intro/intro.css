@@ -29,15 +29,24 @@
     overflow: hidden;
 }
 
-.title-wrappers {
+.i-title-wrappers {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
 }
+
+@keyframes move {
+    25%{
+        transform: translateY(-150px);
+    }
+    50% {
+        transform: translateY(-200px);
+    }
+} 
 .title-name {
     height: 50px;
     font-size: 30px;
     color: #0e90e5;
-    background-color: #f1f4f6;
+    /*background-color: #f1f4f6;*/
     display: flex;
     align-items: center;
 }
