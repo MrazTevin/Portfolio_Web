@@ -5,6 +5,9 @@
 
 .i-left {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-right {
@@ -13,6 +16,11 @@
 
 .i-left-wrapper {
     padding: 50px;
+    height: 50%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .i-preface {
@@ -36,10 +44,10 @@
 
 @keyframes move {
     25%{
-        transform: translateY(-150px);
+        transform: translateY(-50px);
     }
     50% {
-        transform: translateY(-200px);
+        transform: translateY(-100px);
     }
 } 
 .title-name {
