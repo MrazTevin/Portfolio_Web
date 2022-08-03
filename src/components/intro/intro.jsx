@@ -15,6 +15,9 @@ const Intro = () => {
               <div className="title-name">UI/UX Engineer</div>
             </div>
           </div>
+          <div className="idescribe">
+          I am a skilled problem solver leveraging my technology arsenal to build interactive and user centered products that are good and pleasing to the eye.
+          </div>
         </div>
       </div>
       <div className='i-right'>right</div>
